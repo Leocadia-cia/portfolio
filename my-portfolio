@@ -1,0 +1,69 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leocadia's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Leocadia Nyanchama 👩🏽‍💻</h1>
+    <p>Lawyer | Tech Learner | Dreamer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a lawyer transitioning into tech. I’m passionate about inclusive governance, digital innovation, and building a better world through technology.</p>
+  </section>
+
+  <section id="languages">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>Python (Beginner)</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p>LL.B from Mount Kenya University. Currently pursuing a software engineering course.</p>
+    <a href="cv.pdf" download>📄 Download My CV</a>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>I love civic education, law, women’s rights, and building community solutions with tech. I’m excited about digital platforms for social justice.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">Python Calculator</a> – A simple calculator built in Python.</li>
+      <li><a href="#">Legal Aid Clinic Poster</a> – A campaign poster I helped design.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Leocadia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
